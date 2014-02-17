@@ -1,0 +1,21 @@
+/*wufoo groupme buttons*/
+input#saveForm {
+	border-color: gray;
+	border:solid 1px;
+	border-radius: 9px;
+	background-color: #e4e4e4;
+/*	color: #726e6f;*/
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 2.3em;
+	width: 7em;
+	padding: 2px 2px 2px 2px;
+	position: relative;
+	clear: both;
+	padding: 10px 10px 10px 10px;
+}
+input#saveForm:hover {
+	background: #ff68fd;
+		color: #2d3333;
+}
+/*wufoo groupme buttons*/
