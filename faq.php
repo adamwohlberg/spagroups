@@ -37,8 +37,8 @@ include("inc/products.php");
     <p>If you are a traveling alone, then SpaGroups is also a perfect way to obtain group discounts whether you prefer to connect with your group at the resort or simply have your own solo spa retreat - it's totally up to you.</p>
 
     <h2>Do I have to become a member to use SpaGroups?</h2>
-    <p>You only need to become a Premium Member if you want to lead a group; otherwise we consider you a (FREE) member as soon as you login, submit an email, or register for one of our groups.  For complete details, pleaes see our membership <a href="membership-terms.php">terms and conditions</a>.
-    Membership is free and you pay only a small registration fee to reserve your spot in each group which includes the fee we are charged by your credit card company.  By becoming a member, you have access to group rates and SpaGroups becomes your exclusive spa agent for your spa resort hotel stay.</p>
+    <p>You only need to become a Premium Member if you apply and are accepted as a Group Leader; otherwise we consider you a free member as soon as you login, submit an email, or register for one of our group trips.  For complete details, please see our membership <a href="membership-terms.php">terms and conditions</a>.
+    By becoming a member, you have access to group rates and SpaGroups becomes your exclusive spa agent for your spa resort hotel stay.</p>
 
     <h2>How do I become a group leader?</h2>
     <p>We are currently accepting applications for group leaders. If you are great with people and are an expert at one of our luxury spa resorts and wish to be a group leader, you can obtain even better discounts up to and including a complimentary, all-inclusive spa vacation (depending on the policies of the specific resort).  You can keep your group private or allow other SpaGroups members to join your group.  <a href="start.php">You can apply to be a group leader here.</a></p>

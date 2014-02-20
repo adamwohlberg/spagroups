@@ -11,7 +11,8 @@ CREATE TABLE `fblogin` (
 `firstname` VARCHAR( 300 ) NOT NULL ,
 `lastname` VARCHAR( 300 ) NOT NULL ,
 `email` VARCHAR( 300 ) NOT NULL ,
-`image` VARCHAR( 600 ) NOT NULL,
+`image` VARCHAR( 600 ) NOT NULL ,
+`gender` VARCHAR ( 30 ) NOT NULL ,
 `postdate` DATETIME NOT NULL
 ) ENGINE = InnoDB;
 */ -->
