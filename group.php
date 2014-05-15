@@ -60,13 +60,13 @@ confirm_logged_in();
 	// echo "status: " . $product["status"] . "<br>";
 	// echo "expiration: " . $product["expiration"] . "<br>";
 ?></h2>
-<h2>Share This Group on Facebook: </h2><!-- <div class="fb-share-button" data-href="https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>" data-width="1000" data-type="button"></div> -->
-<!-- <a href="http://www.facebook.com/sharer.php?s=100&p[title]=YOUR TITLE&p[url]=YOUR URL&p[images][0]=YOUR IMAGE URL" class="facebook">Share on Facebook</a> -->
-<!-- <img src="images/share-on-facebook.png" class="fb-share-button" data-href="https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>" data-width="1000" data-type="button"></img> -->
+<h2>Share This Group on Facebook: </h2>
 <!-- this is the facebook sharing widget -->
-<!-- <div class="facebook" class="fb-share-button" data-href="https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>" data-width="1000" data-type="button"></div> -->
-<div class="fb-share-button" data-href="https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>" data-width="1000" data-type="button"></div>
-<br/>
+<!-- src="images/share-on-facebook-nonhover.png"
+ -->
+<a href="#" onclick="fbs_click('https://www.facebook.com/share.php?u=https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>')" class="fb-share-button" data-width="1000" data-type="button" id="facebookShareButtonGroup"><img src="https://spagroups.com/images/share-on-facebook-nonhover.png" onmouseover="this.setAttribute('src','https://spagroups.com/images/share-on-facebook-hover.png');" onmouseout="this.setAttribute('src','https://spagroups.com/images/share-on-facebook-nonhover.png');"/></a> 
+
+<!-- <div class="fb-share-button" data-href="https://spagroups.com/group.php?id=<?php echo $_GET['id']; ?>" data-width="1000" data-type="button"></div> -->
 <br/>
 
 <!-- this is the eventbrite form: -->

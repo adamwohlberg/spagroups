@@ -62,7 +62,9 @@ include("inc/products.php");
     <div style="margin: 40px 0px 0px 0px"> </div>
 <div class="fb-facepile" data-href="https://spagroups.com/find.php" data-max-rows="1" data-colorscheme="light" data-size="medium" data-show-count="true"></div>
 <!-- Facebook share butt -->
-﻿<div class="fb-share-button" data-href="https://spagroups.com/find.php" data-width="1000" data-type="button"></div>
+﻿<!-- <div class="fb-share-button" data-href="https://spagroups.com/find.php" data-width="1000" data-type="button"></div> -->
+<a href="#" onclick="fbs_click('https://www.facebook.com/share.php?u=https://spagroups.com/find.php');" class="fb-share-button" data-width="1000" data-type="button" id="facebookShareButtonGroup"><img src="https://spagroups.com/images/share-on-facebook-nonhover.png" onmouseover="this.setAttribute('src','https://spagroups.com/images/share-on-facebook-hover.png');" onmouseout="this.setAttribute('src','https://spagroups.com/images/share-on-facebook-nonhover.png');"/></a> 
+
     </div>
     <div style="margin: 0px 0px 60px 0px"> </div>
 <!-- //make the search bar pink -->

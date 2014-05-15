@@ -46,7 +46,7 @@ if (!isset($product["fbimage"])) {
   echo 'group.php?id='.$_GET['id'];
 }
  ;?>">
-<meta property="og:description" content="SpaGroups connects you with other spa-goers for group discounts at the world's best all-inclusive spas and resorts ." />
+<meta property="og:description" content="SpaGroups connects you with other spa-goers for group discounts at the world's best all-inclusive spas and resorts." />
 <!-- facebook og sharing -->
 <?php 
 // } 
@@ -86,7 +86,7 @@ if (!isset($product["fbimage"])) {
 <!-- moore jquery -->
   <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
+<!--   <link rel="stylesheet" href="/resources/demos/style.css"> -->
 <!-- -->
 
 <!-- style sheets -->
@@ -94,10 +94,11 @@ if (!isset($product["fbimage"])) {
 <link rel="stylesheet" type="text/css" href="media/css/searchtable.css" />
 
 <!-- testing code -->
+<!-- opens a new window for facebook sharing -->
 <script type="text/javascript">
-// $("document").ready( function () {
-//   alert("the page just loaded!");
-// });
+function fbs_click(url) {
+    window.open(url,'','width=700,height=500');
+}
 </script>
 
 <!-- allows facebook sharing, facepile, and like via a button on the group.php detail page-->
@@ -140,7 +141,7 @@ if (!isset($product["fbimage"])) {
         <div class="spagroupsLogo"><a href="index.php" style="height:100%; width:100%; display:block"></a></div>
         <span id="tagline" style="margin:0 0 0 5px">Join a Group and Save Up to 50%</span> </div>
       <div style="float:left; position:relative; padding:15px 0 0 40px">
-        <div class="btnStart"><a href="start.php" style="height:100%; width:100%; display:block"></a></div>
+        <div class="btnStart"><a href="#" style="height:100%; width:100%; display:block"></a></div>
         <div class="btnFind"><a href="find.php" style="height:100%; width:100%; display:block"></a></div>
 
           <?php if(!isset($_SESSION["user_id"])) { ?><a id="signup">SIGN UP</a><?php }?>

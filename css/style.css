@@ -15,10 +15,13 @@ li {
 #userImage {
 	border-radius: 50px;
     border:2px solid #f68ef6;
-	width: 85px;
+	width: 65px;
 	height: 65px;
 	margin: 0px 0px 0px 0px;
 
+}
+.fb-facepile {
+	margin: 10px 0px 20px 0px;
 }
 #iatan {
 	margin: -200px 0px 54px 100px;
@@ -26,20 +29,15 @@ li {
 #welcomeUsername {
 	display:inline;
 }
-/*.facebook{
-background: url(../images/share-on-facebook-nonhover.png) no-repeat;
-display:block;
-width: 100;
-height: 97;
-text-indent: -999em;
-margin: 0px 0px 0px -7px;
-padding: 20px 20px 50px 0px;
+#facebookShareButtonFind {
+	display: block;
+	padding: 0px 0px 5px 0px;
+	margin: 10px 0px 0px 0px;
 }
-.facebook:hover{
-background-image: url(../images/share-on-facebook-hover.png);
-}*/
-.fb-share-button {
-/*	background: url(images/share-on-facebook-nonhover.png) no-repeat;*/
+#facebookShareButtonGroup {
+	display: block;
+	padding: -20px 0px 5px 0px;
+	margin: -10px 0px 0px 0px;
 }
 .ui-dialog {
 /*	background:#dbdbdb !important*/
