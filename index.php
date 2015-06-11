@@ -159,6 +159,9 @@ include("inc/products.php");
 <!--     <div id="disclaimer">
         <p> <strong>Notice of Non-Affiliation: </strong>Although spagroups provides <span style="font-weight: bold;">all-inclusive spa resort discounts</span> to our members, we are not affiliated with any particular spa resort or destination spa. We want you to have the best <span style="font-weight: bold;">healthy spa vacation</span> at the destination spa or resort of your choice.  If a group member chooses to create a group at Miraval Spa Resort&trade;, Rancho La Puerta&trade;, The Oaks at Ojai&trade;, Lake Austin Resort and Spa&trade; or any other all-inclusive spa resort, we will list the name of the all-inclusive resort or destination spa; however we are in no way affiliated with that particular resort.  Yes, you may obtain Rancho La Puerta&trade; discounts, Miraval&trade; discounts, etc. based on each spa resort's group discount guidelines; however, we have no affiliation and do not set rates at hotels - we simply help our members get the best rates possible by joining and starting groups to leverage group buying power.  We may provide links to the group's Facebook&trade; page, but we are in no way affiliated with Facebook&trade;. Facebook&trade; is a licensed trademark of Facebook&trade;, Miraval Resort & Spa&trade; is a licensed trademark of Miraval Resorts&trade;, Rancho La Puerta&trade; is a licensed trademark of Rancho La Puerta&trade;, The Oaks at Ojai&trade; is a licensed trademark of The Oaks at Ojai&trade;, The Ranch at Live Oak Malibu&trade; is a licensed trademark of The Ranch at Live Oak Malibu&trade; and our SpaGroups members are awesome!</p>
     </div>  -->
+<script>
+alert('SpaGroups is no longer in operation. Thank you for 2 years of destination retreats.');
+</script>
 </div>
 
 </div>
