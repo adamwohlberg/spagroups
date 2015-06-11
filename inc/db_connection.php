@@ -12,13 +12,31 @@
   // define("DB_PORT","3306"); // default: 3306, Randy uses 8889
 
   // 1. Create a database connection
-  $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+  // $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
+  // // Test if connection succeeded
+  // if(mysqli_connect_errno()) {
+  //   echo "all good";
+  //   die(" Database connection failed: " . 
+  //        mysqli_connect_error() . 
+  //        " (" . mysqli_connect_errno() . ")"
+  //   );
+  // }
+
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+$server = $url["host"];
+$username = $url["user"];
+$password = $url["pass"];
+$db = substr($url["path"], 1);
+
+$connection = mysqli_connect($server, $username, $password, $db);
   // Test if connection succeeded
   if(mysqli_connect_errno()) {
     echo "all good";
-    die("Database connection failed: " . 
+    die(" Database connection failed: " . 
          mysqli_connect_error() . 
          " (" . mysqli_connect_errno() . ")"
     );
   }
+
 ?>
