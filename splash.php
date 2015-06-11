@@ -15,6 +15,9 @@
   })();
 
 </script>
+<script>
+alert('Thank you for three years of destination spa retreats. Please note that SpaGroups is no longer in operation.');
+</script>
 <!-- Google Analytics Tracking Code -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!--[if !IE 7]>
