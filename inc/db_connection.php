@@ -1,8 +1,8 @@
 <?php
-  define("DB_SERVER", "localhost");
-  define("DB_USER", "bcfe0905177bc7");
-  define("DB_PASS", "d4101cabd05fa72");
-  define("DB_NAME", "heroku_91162cf5ac94102");
+  // define("DB_SERVER", "localhost");
+  // define("DB_USER", "bcfe0905177bc7");
+  // define("DB_PASS", "d4101cabd05fa72");
+  // define("DB_NAME", "heroku_91162cf5ac94102");
 
 // for the live version to spa db
   // define("DB_SERVER","localhost");
