@@ -14,11 +14,11 @@
 	// define("DB_PASS","root");
 
 	//heroku clearDB
-	define("DB_HOST","localhost");
-	define("DB_NAME","heroku_91162cf5ac94102");
-	define("DB_PORT","3306"); // default: 3306, Randy uses 8889
-	define("DB_USER","bcfe0905177bc7");
-	define("DB_PASS","d4101cabd05fa72");	
+	// define("DB_HOST","localhost");
+	// define("DB_NAME","heroku_91162cf5ac94102");
+	// define("DB_PORT","3306"); // default: 3306, Randy uses 8889
+	// define("DB_USER","bcfe0905177bc7");
+	// define("DB_PASS","d4101cabd05fa72");	
 
 	//bluehost _spa db
 	// define("DB_HOST","localhost");
