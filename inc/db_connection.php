@@ -20,10 +20,10 @@
 
 $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-  define("DB_SERVER", $url["host"]);
-  define("DB_USER", $url["user"];
-  define("DB_PASS", $url["pass"]);
-  define("DB_NAME", substr($url["path"], 1);
+DB_SERVER = $url["host"];
+DB_USER = $url["user"];
+DB_PASS = $url["pass"];
+DB_NAME = substr($url["path"], 1);
 
 $connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
   // Test if connection succeeded
