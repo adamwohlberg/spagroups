@@ -1,0 +1,266 @@
+
+/* form style */
+#creategroup {	
+	padding:0px 20px 0 0px; 
+	color:#eee;
+	width:550px;
+	margin:0 auto;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+} 
+
+/* nested fieldset */
+#creategroup fieldset {
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+/* typography */
+#creategroup h3 	{ color:#eee; margin-top:0px; }
+#creategroup p 	{ font-size:11px; }
+
+
+/* input field */
+#creategroup input {
+	border:1px solid #999;
+	background-image:url(../images/formback.png);
+	background-color:#666;
+	padding:5px;
+	color:#111;
+	font-size:12px;
+	height:15px;
+	width:258px;
+	
+	/* CSS3 spicing */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-shadow:1px 1px 1px #FFF;
+}
+
+#creategroup input:focus 		{ color:#fff; background-position:0 -25px; text-shadow:1px 1px 1px #000; }
+#creategroup input:active 	{ background-color:#888; }
+
+#creategroup textarea {
+	border:1px solid #999;
+	background-image:url(../images/formbackarea.png);
+	background-color:#666;
+	padding:5px;
+	height:69px;
+	color:#111;
+	font-size:12px;
+	
+	/* CSS3 spicing */
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	text-shadow:1px 1px 1px #FFF;
+}
+
+#creategroup textarea:focus 		{ color:#fff; background-position:0 -79px; text-shadow:1px 1px 1px #000; }
+#creategroup textarea:active 	{ background-color:#888; }
+
+#creategroup .radio {
+	width:15px;
+}
+
+/* button */
+#creategroup button {
+	outline:0;
+	border:1px solid #666;	
+}
+
+
+/* error message */
+.error {
+	height:15px;
+	background-color:#FFFE36;
+	font-size:11px;
+	border:1px solid #E1E16D;
+	padding:4px 10px;
+	color:#000;
+	margin-left:-2px;
+	
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px; 
+	-moz-border-radius-bottomleft:0;
+	-moz-border-radius-topleft:0;	
+	-webkit-border-bottom-left-radius:0; 
+	-webkit-border-top-left-radius:0;
+	
+	-moz-box-shadow:0 0 6px #ddd;
+	-webkit-box-shadow:0 0 6px #ddd;	
+}
+
+/* field label */
+#creategroup label {
+	display:inline-block;
+	font-size:19px;
+	color:#139ae4;
+	width:160px;
+	text-align:right;
+	font-family:Calibri;
+	margin:0 5px 0 0;
+	vertical-align:top;
+}
+#search label {
+	display:block;
+	font-size:13px;
+	color:#111;
+	text-align:left;
+	font-family:Calibri;
+	margin:0 5px 0 0;
+	vertical-align:top;
+}
+
+#terms label {
+	float:left;
+}
+
+#terms input {
+	margin:0 5px;
+}
+/* the input field */
+.date {
+	border:1px solid #ccc;
+	font-size:18px;
+	padding:4px 4px 4px 4px;
+	text-align:left;
+	width:194px;		
+	-moz-box-shadow:0 0 10px #eee inset;
+}
+
+/* calendar root element */
+#calroot {
+	margin-top:-1px;
+	width:198px;
+	padding:2px;
+	background-color:#fff;
+	font-size:11px;
+	border:1px solid #ccc;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-box-shadow: 0 0 15px #666;
+	-webkit-box-shadow: 0 0 15px #666;	
+}
+
+/* head. contains title, prev/next month controls and possible month/year selectors */
+#calhead {	
+	padding:2px 0;
+	height:22px;
+} 
+
+#caltitle {
+	font-size:14px;
+	color:#0150D1;	
+	float:left;
+	text-align:center;
+	width:155px;
+	line-height:20px;
+	text-shadow:0 1px 0 #ddd;
+}
+
+#calnext, #calprev {
+	display:block;
+	width:20px;
+	height:20px;
+	background:transparent url(../images/prev.gif) no-repeat scroll center center;
+	float:left;
+	cursor:pointer;
+}
+
+#calnext {
+	background-image:url(../images/next.gif);
+	float:right;
+	color:#333
+}
+
+#calprev.caldisabled, #calnext.caldisabled {
+	visibility:hidden;	
+}
+
+/* year/month selector */
+#caltitle select {
+	font-size:10px;	
+}
+
+/* names of the days */
+#caldays {
+	height:14px;
+	border-bottom:1px solid #ddd;
+	color:#333
+}
+
+#caldays span {
+	display:block;
+	float:left;
+	width:28px;
+	text-align:center;
+}
+
+/* container for weeks */
+#calweeks {
+	background-color:#fff;
+	margin-top:4px;
+}
+
+/* single week */
+.calweek {
+	clear:left;
+	height:22px;
+}
+
+/* single day */
+.calweek a {
+	display:block;
+	float:left;
+	width:27px;
+	height:20px;
+	text-decoration:none;
+	font-size:11px;
+	margin-left:1px;
+	text-align:center;
+	line-height:20px;
+	color:#666;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px; 		
+} 
+
+/* different states */
+.calweek a:hover, .calfocus {
+	background-color:#ddd;
+}
+
+/* sunday */
+a.calsun {
+	color:red;		
+}
+
+/* offmonth day */
+a.caloff {
+	color:#ccc;		
+}
+
+a.caloff:hover {
+	background-color:rgb(245, 245, 250);		
+}
+
+
+/* unselecteble day */
+a.caldisabled {
+	background-color:#efefef !important;
+	color:#ccc	!important;
+	cursor:default;
+}
+
+/* current day */
+#calcurrent {
+	background-color:#498CE2;
+	color:#fff;
+}
+
+/* today */
+#caltoday {
+	background-color:#333;
+	color:#fff;
+}
+
